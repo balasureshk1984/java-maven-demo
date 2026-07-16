@@ -1,6 +1,7 @@
 name: Build Maven Project
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
